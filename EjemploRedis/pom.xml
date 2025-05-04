@@ -1,35 +1,33 @@
- <project xmlns="http://maven.apache.org/POM/4.0.0" 
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
 
-  <groupId>EjemploRedis</groupId>
-  <artifactId>EjemploRedis</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>EjemploRedis</name>
-  <description>Prueba Redis</description>
-  
-  <dependencies>
-    <!-- Cliente Redis para Java -->
-    <dependency>
-      <groupId>redis.clients</groupId>
-      <artifactId>jedis</artifactId>
-      <version>5.1.0</version>
-    </dependency>
-  </dependencies>
-  
-   <build>
-  <plugins>
-  <plugin>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-resources-plugin</artifactId>
-  <version>3.3.1</version>
-</plugin>
-  </plugins>
-  </build>
+	<groupId>EjemploRedis</groupId>
+	<artifactId>EjemploRedis</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>EjemploRedis</name>
+	<description>Prueba Redis</description>
 
-  
-  
+	<dependencies>
+		<!-- Cliente Redis para Java -->
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<version>5.1.0</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.3.1</version>
+			</plugin>
+		</plugins>
+	</build>
+
+
 </project>

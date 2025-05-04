@@ -3,17 +3,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>EjemploMongoDB</groupId>
-	<artifactId>EjemploMongoDB</artifactId>
+
+	<groupId>EjemploJDBC</groupId>
+	<artifactId>EjemploJDBC</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>EjemploMongoDB</name>
-	<description>Prueba MongoDB</description>
+	<name>EjemploJDBC</name>
+	<description>Prueba java JDBC</description>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.mongodb</groupId>
-			<artifactId>mongodb-driver-sync</artifactId>
-			<version>4.11.0</version>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.7.3</version>
 		</dependency>
 	</dependencies>
 
@@ -26,5 +27,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>

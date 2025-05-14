@@ -14,7 +14,7 @@ public class Profesor {
 	}
 
 	public void setNombre(String nombre) {
-		nombre = nombre;
+		this.nombre = nombre;
 	}
 
 	public String getApellido() {

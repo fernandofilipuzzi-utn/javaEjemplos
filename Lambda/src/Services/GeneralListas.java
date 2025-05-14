@@ -9,7 +9,7 @@ public class GeneralListas {
 	  {
 		  List<Alumno> alumnos=new ArrayList<Alumno>();
 			
-		  alumnos.add( new Alumno("Frutilla") );
+		  alumnos.add( new Alumno("Frutilla","Ana") );
 		  
 		  return alumnos;
 	  }
@@ -18,7 +18,7 @@ public class GeneralListas {
 	  {
 		  List<Profesor> alumnos=new ArrayList<Profesor>();
 			
-		  alumnos.add( new Profesor("Ciruela") );
+		  alumnos.add( new Profesor("Ciruela","Gabriel") );
 		  
 		  return alumnos;
 	  }

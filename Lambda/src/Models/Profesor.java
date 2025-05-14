@@ -7,6 +7,7 @@ public class Profesor {
 	public Profesor(String nombre, String apellido)
 	{
 		this.nombre=nombre;
+		this.apellido=apellido;
 	}
 	
 	public String getNombre() {
@@ -24,5 +25,12 @@ public class Profesor {
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
+
+	@Override
+	public String toString() {
+		return "Profesor [nombre=" + nombre + ", apellido=" + apellido + "]";
+	}
+	
+	
 	
 }

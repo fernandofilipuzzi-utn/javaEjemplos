@@ -7,6 +7,7 @@ public class Alumno {
 	public Alumno(String nombre, String apellido)
 	{
 		this.nombre=nombre;
+		this.apellido=apellido;
 	}
 	
 	public String getNombre() {
@@ -28,6 +29,11 @@ public class Alumno {
 	public double getPromedio()
 	{
 		return 0d;
+	}
+
+	@Override
+	public String toString() {
+		return "Alumno [nombre=" + nombre + ", apellido=" + apellido + "]";
 	}
 	
 	
